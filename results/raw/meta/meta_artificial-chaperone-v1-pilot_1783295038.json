@@ -1,0 +1,40 @@
+{
+  "run_id": "artificial-chaperone-v1-pilot",
+  "started_utc": "2026-07-05T23:43:58.219061+00:00",
+  "args": {
+    "config": "config.json",
+    "pilot": true,
+    "dry_run": false,
+    "validate": false,
+    "provider": null
+  },
+  "config": {
+    "run_id": "artificial-chaperone-v1",
+    "seed": 20260705,
+    "n_samples_per_cell": 50,
+    "pilot_n_samples_per_cell": 2,
+    "max_output_tokens": 2000,
+    "request_timeout_seconds": 180,
+    "stimuli_path": "stimuli/stimuli.csv",
+    "results_dir": "results/raw",
+    "providers": {
+      "anthropic": {
+        "enabled": true,
+        "model": "claude-sonnet-5",
+        "max_concurrency": 4,
+        "min_interval_seconds": 0.25,
+        "extra_params": {}
+      },
+      "openai": {
+        "enabled": true,
+        "model": "gpt-5.5",
+        "max_concurrency": 4,
+        "min_interval_seconds": 0.25,
+        "extra_params": {}
+      }
+    }
+  },
+  "n_pending": 208,
+  "git_commit": null,
+  "python": "3.14.6"
+}
