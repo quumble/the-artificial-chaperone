@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this study design or code, please cite it as below."
+title: "The Artificial Chaperone: literacy register, age inference, and content calibration in LLM responses"
+authors:
+  - family-names: "quumble"
+    # replace with real name/ORCID before release
+repository-code: "https://github.com/quumble/the-artificial-chaperone"
+license: MIT
+date-released: "2026-07-05"
+version: "1.0.0"
