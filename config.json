@@ -3,7 +3,7 @@
   "seed": 20260705,
   "n_samples_per_cell": 50,
   "pilot_n_samples_per_cell": 2,
-  "max_output_tokens": 2000,
+  "max_output_tokens": 4000,
   "request_timeout_seconds": 180,
   "stimuli_path": "stimuli/stimuli.csv",
   "results_dir": "results/raw",
@@ -17,7 +17,7 @@
     },
     "openai": {
       "enabled": true,
-      "model": "gpt-5.5",
+      "model": "gpt-5.5-2026-04-23 ",
       "max_concurrency": 4,
       "min_interval_seconds": 0.25,
       "extra_params": {}
