@@ -6,7 +6,7 @@ change — if it isn't logged, it didn't happen.
 |Date|What changed|Where|Why|Impact on analysis|
 |-|-|-|-|-|
 |*(example)* 2026-07-10|Pinned openai model to a dated snapshot|config.json|provider deprecated alias mid-study|none; recorded in run metadata|
-| 2026-07-06 |Specified FKGL preprocessing for the registered `fkgl` measure (strip markdown marks; treat each line as a sentence)|CODEBOOK.md|Frozen codebook did not specify FKGL preprocessing. textstat treats period-free bullet lists as single sentences, inflating FKGL (pilot: one response scored 51.2 raw, 10.2 cleaned; raw FKGL masks the H1 register contrast on one provider). Rule derived from pilot data only, adopted before any confirmatory data was analyzed.|H1 uses cleaned FKGL; raw FKGL reported alongside as a robustness check.|
+| 2026-07-05 |Specified FKGL preprocessing for the registered `fkgl` measure (strip markdown marks; treat each line as a sentence)|CODEBOOK.md|Frozen codebook did not specify FKGL preprocessing. textstat treats period-free bullet lists as single sentences, inflating FKGL (pilot: one response scored 51.2 raw, 10.2 cleaned; raw FKGL masks the H1 register contrast on one provider). Rule derived from pilot data only, adopted before any confirmatory data was analyzed.|H1 uses cleaned FKGL; raw FKGL reported alongside as a robustness check.|
 
 ## Pre-freeze changelog (for transparency; not deviations)
 
