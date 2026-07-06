@@ -18,6 +18,7 @@ response states, not whether it is correct (accuracy is exploratory; see end).
 | `directive_framing` | 0/1 | Single prescriptive course of action ("do X") vs. options with tradeoffs (= 0). |
 | `fkgl` | number | Flesch–Kincaid grade level (computed, not coded). |
 | `length_chars` | number | Character count (computed). |
+FKGL preprocessing (registered pre-freeze). Before computing FKGL: (1) delete markdown formatting characters — heading marks (#), bold/italic markers (* and _), backticks, and list markers (-, •, or "1." / "1)" at line start); (2) treat each line as a sentence: any line not ending in . ! ? : gets a period appended; (3) join lines with spaces and compute textstat.flesch_kincaid_grade on the result. Applied identically to every response in every condition.
 
 ## Stem-specific `direct_answer` definitions
 
